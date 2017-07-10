@@ -1,0 +1,45 @@
+{
+  "name": "chat-room",
+  "version": "1.0.0",
+  "description": "we chat here!",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangmingli/chat-root.git"
+  },
+  "keywords": [
+    "chat",
+    "node"
+  ],
+  "author": "summer snow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangmingli/chat-root/issues"
+  },
+  "homepage": "https://github.com/zhangmingli/chat-root#readme",
+  "dependencies": {
+    "ioredis": "^3.1.1",
+    "istanbul": "^0.4.5",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^2.0.1",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.2.1",
+    "mocha": "^3.4.2",
+    "mysql": "^2.13.0",
+    "net": "^1.0.2",
+    "nodemon": "^1.11.0",
+    "runkoa": "^1.5.9",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0",
+    "thrift": "^0.10.0"
+  }
+}
